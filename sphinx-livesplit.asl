@@ -4,17 +4,16 @@
 state("SphinxD_GL")
 {
     /* swy: nothing to do here; we need to grab the pointers ourselves instead of hardcoding it */
-	//uint GameTimer : 0x00EEEF68;// 0x0F68; //0x0eeEF68;// 0x0145EF68;
 }
 
 startup
 {
     /* swy: prefixed debug function; based on the Alan Wake auto-splitter by tduva */
-	Action<string> DebugOutput = (text) =>
+    Action<string> DebugOutput = (text) =>
     {
-		print("[!!!] [Sphinx PC Auto-Splitter] " + text);
-	}; 
-	vars.DebugOutput = DebugOutput;
+        print("[!!!] [Sphinx PC Auto-Splitter] " + text);
+    }; 
+    vars.DebugOutput = DebugOutput;
 
     /* swy: we are done, tell the world about it */
     vars.DebugOutput("Alright. Running «startup».");
@@ -45,19 +44,19 @@ init
 /*
     static struct exportedBlock
     {
-	    char  marker[16];
-	    void *gameTimer;
-	    void *levelHash;
-	    int   defeatSet;
-	    char  end[4];
+        char  marker[16];
+        void *gameTimer;
+        void *levelHash;
+        int   defeatSet;
+        char  end[4];
     };
 */
 
-    vars.gameTimer = new MemoryWatcher<uint>(//new DeepPointer(
+    vars.gameTimer = new MemoryWatcher<uint>(
       (IntPtr)game.ReadValue<int>(ptr + (4 * 0))
     );
 
-    vars.levelHash = new MemoryWatcher<uint>(//new DeepPointer(
+    vars.levelHash = new MemoryWatcher<uint>(
       (IntPtr)game.ReadValue<int>(ptr + (4 * 1))
     );
 
