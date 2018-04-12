@@ -24,8 +24,8 @@ init
     print("init");
 
     var sw = new Stopwatch(); sw.Start();
- 
     var ptr = IntPtr.Zero;
+
     vars.foundPointers = false;
 
     /* swy: silly null-terminated marker that signals the start of the gExportBlock */
@@ -41,23 +41,23 @@ init
         return false;
     }
 
-/*
-    static struct exportedBlock
-    {
-        char  marker[16];
-        void *gameTimer;
-        void *levelHash;
-        int   defeatSet;
-        char  end[4];
-    };
-*/
+    /* swy: this is the actual struct in a proper programming language:
+        static struct exportedBlock
+        {
+            char  marker[16];
+            void *gameTimer;
+            void *levelHash;
+            int   defeatSet;
+            char  end[4];
+        };
+    */
 
     vars.gameTimer = new MemoryWatcher<uint>(
-      (IntPtr)game.ReadValue<int>(ptr + (4 * 0))
+        (IntPtr) game.ReadValue<int>(ptr + (4 * 0))
     );
 
     vars.levelHash = new MemoryWatcher<uint>(
-      (IntPtr)game.ReadValue<int>(ptr + (4 * 1))
+        (IntPtr) game.ReadValue<int>(ptr + (4 * 1))
     );
 
     vars.defeatSet = new MemoryWatcher<uint>(
