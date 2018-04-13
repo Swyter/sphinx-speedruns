@@ -15,65 +15,54 @@ startup
     }; 
     vars.DebugOutput = DebugOutput;
 
+    /* swy: add a hierarchical list of splittable maps, indexed by their HT_File_* hashcode constant, less is more */
+    settings.Add("urk",         true, "Uruk");
+    settings.Add("0x010002be", false, "Uruk Intro",                                        "urk");  /* HT_File_Map_ur_intr  (urk_intr.edb) */
+    settings.Add("0x010002a7", false, "Uruk Canyon (Dark Area)",                           "urk");  /* HT_File_Map_hl_da2    (_hl_da2.edb) */
+    settings.Add("0x010002a8", false, "Uruk Islands + Geb Queen",                          "urk");  /* HT_File_Map_hl_da3    (_hl_da3.edb) */
+    settings.Add("0x01000233", false, "Uruk Temple Trials",                                "urk");  /* HT_File_urk_4pat     (_ur_4pat.edb) */
 
-/*
-    struct sphinxMap
-    {
-        public string id;
-        public string realName;
-        public   uint hashCode;
-        public string parentId;
-    };
+    settings.Add("lux",         true, "Luxor");
+    settings.Add("0x01000265", false, "Luxor Palace (Tut)",                                "lux");  /* HT_File_Map_lu_pala  (_lu_pala.edb) */
+    settings.Add("0x0100024b", false, "Luxor Pyramid",                                     "lux");  /* HT_File_Map_lu_pyra  (_lu_pyra.edb) */
 
-    vars.MapArray = new sphinxMap[]{
-      new sphinxMap{ id = "a", realName = 1},
-      new sphinxMap{ id = "b", id = 5},
-      new sphinxMap{ id = "c", id = 1}
-    };
-*/
+    settings.Add("aby",         true, "Abydos");
+    settings.Add("0x01000269", false, "Abydos Sewer",                                      "aby");  /* HT_File_Map_ab_sewr  (_ab_sewr.edb) */
+    settings.Add("0x010001b9", false, "Abydos Canals",                                     "aby");  /* HT_File_Map_ab_cana  (_ab_cana.edb) */
+    settings.Add("0x01000268", false, "Abydos Monster Shop",                               "aby");  /* HT_File_Map_ab_shop  (_ab_shop.edb) */
+    settings.Add("0x01000264", false, "Abydos Museum",                                     "aby");  /* HT_File_Map_ab_musm  (_ab_musm.edb) */
+    settings.Add("0x010002c3", false, "Abydos Council Chambers",                           "aby");  /* HT_File_Map_ab_cncl  (_ab_cncl.edb) */
+    settings.Add("0x0100024d", false, "Abydos Boss Battle",                                "aby");  /* HT_File_Map_ak_du6    (_ak_du6.edb) */
 
-    settings.Add("use_internal_time", false, "ALT: Use the internal game timer instead of just pausing at loads.");
-    settings.Add("urk",          true, "Uruk");
-    settings.Add("urk_intro",    true, "Uruk Intro",   "urk");
-    settings.Add("urk_islands",  true, "Uruk Islands", "urk");
+    settings.Add("aby_mg",      true, "Abydos Minigames",                                  "aby");
+    settings.Add("0x010002c8", false, "Tefnut's Target Tavern",                         "aby_mg");  /* HT_File_Map_mg_shoot (mg_shoot.edb) */
+    settings.Add("0x010002c9", false, "Corridor of Champions",                          "aby_mg");  /* HT_File_Map_mg_walls (mg_walls.edb) */
+    settings.Add("0x010002ca", false, "Sorkon's Sequence Shack",                        "aby_mg");  /* HT_File_Map_mg_simon (mg_simon.edb) */
+    settings.Add("0x010002cb", false, "Paneb's Pair Matching Place",                    "aby_mg");  /* HT_File_Map_mg_pairs (mg_pairs.edb) */
 
-    settings.Add("lux",          true, "Luxor");
-    settings.Add("lux_palace",   true, "Luxor Palace (Tut)",  "lux");
-    settings.Add("lux_pyramid",  true, "Luxor Pyramid", "lux");
+    settings.Add("hel",         true, "Heliopolis");
+    settings.Add("0x01000262", false, "Heliopolis: Exterior",                              "hel");  /* HT_File_Map_hl_ext    (_hl_ext.edb) */
+    settings.Add("0x010002a4", false, "Heliopolis: Cursed Palace",                         "hel");  /* HT_File_Map_hl_cp      (_hl_cp.edb) */
+    settings.Add("0x01000294", false, "Heliopolis: Great Wall Entrance I + Anubis Tower",  "hel");  /* HT_File_Map_hl_ws1    (_hl_ws1.edb) */
+    settings.Add("0x010002dc", false, "Heliopolis: Great Wall Entrance II (Access Room)",  "hel");  /* HT_File_Map_hl_rm1    (_hl_rm1.edb) */
+    settings.Add("0x01000263", false, "Heliopolis: Great Wall Entrance II (Wall section)", "hel");  /* HT_File_Map_hl_ws2    (_hl_ws2.edb) */
+    settings.Add("0x010002a0", false, "Heliopolis: Great Wall Entrance III",               "hel");  /* HT_File_Map_hl_ws3    (_hl_ws3.edb) */
+    settings.Add("0x01000295", false, "Heliopolis: Lost Temple",                           "hel");  /* HT_File_Map_hl_dng    (_hl_dng.edb) */
 
-    settings.Add("aby",          true, "Abydos");
-    settings.Add("aby_sewer",    true, "Abydos Sewer",            "aby");
-    settings.Add("aby_canals",   true, "Abydos Canals",           "aby");
-    settings.Add("aby_museum",   true, "Abydos Museum",           "aby");
-    settings.Add("aby_council",  true, "Abydos Council Chambers", "aby");
-    settings.Add("aby_ishka",  true, "Abydos Boss Battle", "aby");
-    settings.Add("aby_mg",  true, "Abydos Minigames", "aby");
-    settings.Add("aby_mg_pairs",  true, "Pairs", "aby_mg");
-    settings.Add("aby_mg_shoot",  true, "Shoot", "aby_mg");
-    settings.Add("aby_mg_simon",  true, "Simon", "aby_mg");
-    settings.Add("aby_mg_walls",  true, "Corridor of Champions", "aby_mg");
+    settings.Add("mum",         true, "Mummy");
+    settings.Add("0x010002cd", false, "Mummy: Uruk Castle Jail and Hub (All)",             "mum");  /* HT_File_Map_mu_cast  (_mu_cast.edb) */
+    settings.Add("0x010001d6", false, "Mummy Visit #1: Impulse Planetarium",               "mum");  /* HT_File_Map_mu_imp2  (_mu_imp2.edb) */
+    settings.Add("0x010002d5", false, "Mummy Visit #2: Treasure Chamber (Triple mummy)",   "mum");  /* HT_File_Map_mu_trei  (_mu_trei.edb) */
+    settings.Add("0x01000175", false, "Mummy Visit #3: Uruk Tower Exterior",               "mum");  /* HT_File_mum_towr     (mum_towr.edb) */
+    settings.Add("0x01000238", false, "Mummy Visit #3: Hang Train",                        "mum");  /* HT_File_Map_mu_htrn  (_mu_htrn.edb) */
+    settings.Add("0x010002d8", false, "Mummy Visit #4: Sewer",                             "mum");  /* HT_File_Map_mu_sewr  (_mu_sewr.edb) */
+    settings.Add("0x010002b0", false, "Mummy Visit #5: RotoHub",                           "mum");  /* HT_File_Map_mu_roto  (_mu_roto.edb) */
+    settings.Add("0x01000172", false, "Mummy Visit #6: Eye Beam Intro Puzzle",             "mum");  /* HT_File_mum_eyei     (mum_eyei.edb) */
+    settings.Add("0x010002d9", false, "Mummy Visit #6: Eye Beam",                          "mum");  /* HT_File_Map_mu_eye    (_mu_eye.edb) */
 
-    settings.Add("hel", true, "Heliopolis");
-    settings.Add("hel_ext", true, "Heliopolis: Exterior",      "hel");
-    settings.Add("hel_cp",  true, "Heliopolis: Cursed Palace", "hel");
-    settings.Add("hel_anub",  true, "Heliopolis: Anubis", "hel");
-    settings.Add("hel_ws2",  true, "Heliopolis: Wall Entrance II", "hel");
-    settings.Add("hel_ws3",  true, "Heliopolis: Wall Entrance III", "hel");
-
-    settings.Add("mum", true, "Mummy");
-    settings.Add("mum_castle", true, "Mummy: Uruk Castle Jail and Hub (All)", "mum");
-    settings.Add("mum_imp", true, "Mummy Visit #1: Impulse Planetarium", "mum");
-    settings.Add("mum_r", true, "Mummy Visit #2: ", "mum");
-    settings.Add("mum_rod", true, "Mummy Visit #3: Hang Train", "mum");
-    settings.Add("mum_twer", true, "Mummy Visit #4: Uruk Tower Exterior", "mum");
-    settings.Add("mum_sewr", true, "Mummy Visit #4: Sewer", "mum");
-    settings.Add("mum_roto", true, "Mummy Visit #5: RotoHub", "mum");
-    settings.Add("mum_eyei", true, "Mummy Visit #6: Eye Beam Intro Puzzle", "mum");
-    settings.Add("mum_eye", true, "Mummy Visit #6: Eye Beam", "mum");
-
-    settings.Add("set", true, "Set");
-    settings.Add("set_castlerun", true, "Uruk Castle Run", "set");
-    settings.Add("set_final", true, "Final Battle", "set");
+    settings.Add("set",         true, "Set");
+    settings.Add("0x010002a6", false, "Uruk Castle Run",                                   "set");  /* HT_File_Map_ur_cast  (_ur_cast.edb) */
+    settings.Add("0x010001bc", false, "Final Battle",                                      "set");  /* HT_File_Map_cas_lowr   (_Set02.edb) */
 
     /* swy: we are done, tell the world about it */
     vars.DebugOutput("Alright. Running «startup».");
@@ -81,13 +70,12 @@ startup
 
 init
 {
-    print("init");
+    vars.DebugOutput("Reached «init». SphinxD_GL.exe is loaded.");
 
     var sw = new Stopwatch(); sw.Start();
     var ptr = IntPtr.Zero;
 
     vars.foundPointers = false;
-    vars.gameTimerDelta = 0;
 
     /* swy: silly null-terminated marker that signals the start of the gExportBlock */
     byte[] marker = Encoding.ASCII.GetBytes("SPeeDRuNSaReFuN" + Char.MinValue);
@@ -98,7 +86,7 @@ init
 
     if (ptr == IntPtr.Zero)
     {
-        vars.DebugOutput("Could not find the gExportedBlock marker address, is this an old Sphinx version? Bailing out.");
+        vars.DebugOutput("Could not find the gExportedBlock marker address, is this an old Sphinx version? Bailing out."); sw.Reset();
         return false;
     }
 
@@ -114,26 +102,29 @@ init
         };
     */
 
+    /* swy: looks like IntPtr.Size is 8 bytes/64 bits even if we are hooking a 32 bit
+            process; use an uint instead and cast it */
+
     vars.gameTimer = new MemoryWatcher<uint>(
-        (IntPtr) game.ReadValue<int>(ptr + (4 * 0))
+        (IntPtr) game.ReadValue<uint>(ptr + (4 * 0))
     );
 
     vars.levelHash = new MemoryWatcher<uint>(
-        (IntPtr) game.ReadValue<int>(ptr + (4 * 1))
+        (IntPtr) game.ReadValue<uint>(ptr + (4 * 1))
     );
 
     vars.defeatSet = new MemoryWatcher<uint>(
-        ptr + (4 * 2)
+                                      ptr + (4 * 2)
     );
 
     vars.updaState = new MemoryWatcher<uint>(
-        (IntPtr) game.ReadValue<int>(ptr + (4 * 3))
+        (IntPtr) game.ReadValue<uint>(ptr + (4 * 3))
     );
 
     vars.foundPointers = true; sw.Stop();
 
     vars.DebugOutput(
-        String.Format("Found the gExportedBlock at 0x{0:x}; it took {1} ms", ptr, sw.ElapsedMilliseconds)
+        String.Format("The game is compatible. Found the gExportedBlock at 0x{0:x}; it took {1} ms", ptr, sw.ElapsedMilliseconds)
     );
 }
 
@@ -141,13 +132,13 @@ update
 {
     if (!vars.foundPointers) return false;
     
+    /* swy: don't forget that every MemoryWatcher has
+            re-scan its value every now and then */
     vars.gameTimer.Update(game);
     vars.levelHash.Update(game);
     vars.defeatSet.Update(game);
     vars.updaState.Update(game);
 
-    if (vars.gameTimer.Current == 0) vars.gameTimerDelta = 0;
-    
     //vars.DebugOutput(String.Format("gameTimer: 0x{0:x}", vars.gameTimer.Current));
     //vars.DebugOutput(String.Format("levelHash: 0x{0:x}", vars.levelHash.Current));
     //vars.DebugOutput(String.Format("defeatSet: 0x{0:x}", vars.defeatSet.Current));
@@ -157,50 +148,36 @@ update
 reset
 {
     /* swy: start the thing on a new game, the gameTimer doesn't change unless we are creating/loading something */
-    return ((vars.gameTimer.Current != vars.gameTimer.Old) && vars.gameTimer.Current == 0);
+    return (vars.gameTimer.Current != vars.gameTimer.Old) && vars.gameTimer.Current == 0;
 }
 
 start
 {
     /* swy: start the thing on a new game, the gameTimer doesn't change unless we are creating/loading something */
-    return ((vars.gameTimer.Current != vars.gameTimer.Old) && vars.gameTimer.Current == 0);
+    return (vars.gameTimer.Current != vars.gameTimer.Old) && vars.gameTimer.Current == 0;
 }
-
 
 isLoading
 {
-    /* swy: if we are acting using the actual in-game time we have
-            to say yes to manage gameTime() ourselves */
-    //if (settings["use_internal_time"])
-    //    return true;
-
-
     /* swy: if we are going through a level transition or waiting for a submap to load then just stop the clock */
-    return (vars.updaState.Current == 9 || vars.updaState.Current == 11);
+    return vars.updaState.Current == 9 || vars.updaState.Current == 11;
 }
-
-//gameTime
-//{
-//    /* swy: if we are acting like a plain load remover just report
-//            the actual time, essentially doing nothing */
-//    //if (!settings["use_internal_time"])
-//        return timer.CurrentAttemptDuration;
-//
-//    /* swy: ensure that time can't be rolled back when we die and continue */
-//    if (vars.gameTimer.Old > vars.gameTimer.Current)
-//        vars.gameTimerDelta += vars.gameTimer.Old - vars.gameTimer.Current;
-//
-//    return TimeSpan.FromSeconds((vars.gameTimer.Current + vars.gameTimerDelta) / 60.0);
-//}
-
 
 split
 {
     /* swy: split when a new map loads; ensure that it has been enabled in the advanced options first */
     if (vars.levelHash.Current != vars.levelHash.Old)
     {
-        vars.DebugOutput("Changing levels; deloading " + vars.levelHash.Old.ToString("x") + ", loading " + vars.levelHash.Current.ToString("x"));
-        //if (settings[vars.levelHash.Old]) return true;
+        vars.DebugOutput(
+            String.Format("Changing levels; deloading 0x{0:x8}, loading 0x{1:x8}", vars.levelHash.Old, vars.levelHash.Current)
+        );
+        
+        /* swy: probably not the most optimal thing you will see today,
+                but this is what hash indexing looks like */
+        if (settings["0x" + vars.levelHash.Current.ToString("x8")])
+        {
+            vars.DebugOutput("Splitting!"); return true;
+        }
     }
 
     /* swy: stop the timer whenever Set is dealt with (the last split of the run, i hope!)
