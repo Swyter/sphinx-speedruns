@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Layout version="1.6.1">
   <Mode>Vertical</Mode>
-  <X>1665</X>
-  <Y>1</Y>
+  <X>1658</X>
+  <Y>8</Y>
   <VerticalWidth>252</VerticalWidth>
   <VerticalHeight>375</VerticalHeight>
   <HorizontalWidth>-1</HorizontalWidth>
@@ -61,7 +61,7 @@
         <AfterTimesColor>FFFFFFFF</AfterTimesColor>
         <OverrideTimesColor>False</OverrideTimesColor>
         <LockLastSplit>True</LockLastSplit>
-        <IconSize>24</IconSize>
+        <IconSize>31</IconSize>
         <IconShadows>True</IconShadows>
         <SplitHeight>6</SplitHeight>
         <CurrentSplitGradient>Vertical</CurrentSplitGradient>
@@ -74,12 +74,12 @@
         <OverrideDeltasColor>False</OverrideDeltasColor>
         <DeltasColor>FFFFFFFF</DeltasColor>
         <HeaderComparison>Current Comparison</HeaderComparison>
-        <HeaderTimingMethod>Current Timing Method</HeaderTimingMethod>
+        <HeaderTimingMethod>Game Time</HeaderTimingMethod>
         <Display2Rows>False</Display2Rows>
         <IndentBlankIcons>True</IndentBlankIcons>
         <IndentSubsplits>True</IndentSubsplits>
         <HideSubsplits>False</HideSubsplits>
-        <ShowSubsplits>False</ShowSubsplits>
+        <ShowSubsplits>True</ShowSubsplits>
         <CurrentSectionOnly>False</CurrentSectionOnly>
         <OverrideSubsplitColor>False</OverrideSubsplitColor>
         <SubsplitGradient>Plain</SubsplitGradient>
