@@ -12,13 +12,11 @@
     <Variables />
   </Metadata>
   <Offset>00:00:00</Offset>
-  <AttemptCount>14</AttemptCount>
+  <AttemptCount>4</AttemptCount>
   <AttemptHistory>
-    <Attempt id="1" started="04/15/2018 04:40:19" isStartedSynced="True" ended="04/15/2018 04:40:21" isEndedSynced="True" />
-    <Attempt id="2" started="04/15/2018 04:47:06" isStartedSynced="True" ended="04/15/2018 04:47:08" isEndedSynced="True" />
-    <Attempt id="3" started="04/15/2018 04:52:22" isStartedSynced="True" ended="04/15/2018 04:52:59" isEndedSynced="True" />
-    <Attempt id="4" started="04/15/2018 21:03:13" isStartedSynced="True" ended="04/15/2018 21:07:41" isEndedSynced="True" />
-    <Attempt id="5" started="04/15/2018 21:09:59" isStartedSynced="True" ended="04/15/2018 21:11:17" isEndedSynced="True" />
+    <Attempt id="1" started="04/21/2018 02:51:59" isStartedSynced="True" ended="04/21/2018 02:52:00" isEndedSynced="True" />
+    <Attempt id="2" started="04/21/2018 02:53:51" isStartedSynced="True" ended="04/21/2018 02:53:53" isEndedSynced="True" />
+    <Attempt id="3" started="04/21/2018 02:54:21" isStartedSynced="True" ended="04/21/2018 02:54:25" isEndedSynced="True" />
   </AttemptHistory>
   <Segments>
     <Segment>
@@ -58,6 +56,24 @@
       <SegmentHistory />
     </Segment>
     <Segment>
+      <Name>Sarcophagus Key</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best" />
+      </SplitTimes>
+      <BestSegmentTime />
+      <SegmentHistory />
+    </Segment>
+    <Segment>
+      <Name>Old Amulets</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best" />
+      </SplitTimes>
+      <BestSegmentTime />
+      <SegmentHistory />
+    </Segment>
+    <Segment>
       <Name>Treasure Room Key</Name>
       <Icon />
       <SplitTimes>
@@ -67,7 +83,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>Mysterious Location (?name?)</Name>
+      <Name>Mysterious Location</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -86,15 +102,6 @@
     </Segment>
     <Segment>
       <Name>Abydos Amulet</Name>
-      <Icon />
-      <SplitTimes>
-        <SplitTime name="Personal Best" />
-      </SplitTimes>
-      <BestSegmentTime />
-      <SegmentHistory />
-    </Segment>
-    <Segment>
-      <Name>Abydos</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -130,24 +137,6 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>Lunar Key</Name>
-      <Icon />
-      <SplitTimes>
-        <SplitTime name="Personal Best" />
-      </SplitTimes>
-      <BestSegmentTime />
-      <SegmentHistory />
-    </Segment>
-    <Segment>
-      <Name>Earth Key</Name>
-      <Icon />
-      <SplitTimes>
-        <SplitTime name="Personal Best" />
-      </SplitTimes>
-      <BestSegmentTime />
-      <SegmentHistory />
-    </Segment>
-    <Segment>
       <Name>Wings of Ibis</Name>
       <Icon />
       <SplitTimes>
@@ -157,7 +146,16 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>Sail to (?)</Name>
+      <Name>Capture Beetles</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best" />
+      </SplitTimes>
+      <BestSegmentTime />
+      <SegmentHistory />
+    </Segment>
+    <Segment>
+      <Name>Great Wall I</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -167,15 +165,6 @@
     </Segment>
     <Segment>
       <Name>Blowpipe</Name>
-      <Icon />
-      <SplitTimes>
-        <SplitTime name="Personal Best" />
-      </SplitTimes>
-      <BestSegmentTime />
-      <SegmentHistory />
-    </Segment>
-    <Segment>
-      <Name>Sail to (?)</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -220,7 +209,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>Gold Key</Name>
+      <Name>Finish Trails</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -238,16 +227,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>Abydos II</Name>
-      <Icon />
-      <SplitTimes>
-        <SplitTime name="Personal Best" />
-      </SplitTimes>
-      <BestSegmentTime />
-      <SegmentHistory />
-    </Segment>
-    <Segment>
-      <Name>Skip (?name?</Name>
+      <Name>Pass Card Skip</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -274,34 +254,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>Helipolis II</Name>
-      <Icon />
-      <SplitTimes>
-        <SplitTime name="Personal Best" />
-      </SplitTimes>
-      <BestSegmentTime />
-      <SegmentHistory />
-    </Segment>
-    <Segment>
-      <Name>Mummy 2</Name>
-      <Icon />
-      <SplitTimes>
-        <SplitTime name="Personal Best" />
-      </SplitTimes>
-      <BestSegmentTime />
-      <SegmentHistory />
-    </Segment>
-    <Segment>
-      <Name>Stolen Jewel</Name>
-      <Icon />
-      <SplitTimes>
-        <SplitTime name="Personal Best" />
-      </SplitTimes>
-      <BestSegmentTime />
-      <SegmentHistory />
-    </Segment>
-    <Segment>
-      <Name>Spider Boss (crown?)</Name>
+      <Name>Go to Cursed Palace</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -319,7 +272,25 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>Stolen Jewel</Name>
+      <Name>Royal Invitation</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best" />
+      </SplitTimes>
+      <BestSegmentTime />
+      <SegmentHistory />
+    </Segment>
+    <Segment>
+      <Name>Spider Boss</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best" />
+      </SplitTimes>
+      <BestSegmentTime />
+      <SegmentHistory />
+    </Segment>
+    <Segment>
+      <Name>Set Crown</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -373,18 +344,18 @@
     <CustomSettings>
       <Setting id="urk" type="bool">True</Setting>
       <Setting id="0x010002be" type="bool">False</Setting>
-      <Setting id="0x010002a7" type="bool">False</Setting>
-      <Setting id="0x010002a8" type="bool">False</Setting>
+      <Setting id="0x010002a7" type="bool">True</Setting>
+      <Setting id="0x010002a8" type="bool">True</Setting>
       <Setting id="0x01000233" type="bool">False</Setting>
       <Setting id="lux" type="bool">True</Setting>
-      <Setting id="0x01000265" type="bool">False</Setting>
-      <Setting id="0x0100024b" type="bool">False</Setting>
+      <Setting id="0x01000265" type="bool">True</Setting>
+      <Setting id="0x0100024b" type="bool">True</Setting>
       <Setting id="aby" type="bool">True</Setting>
-      <Setting id="0x01000269" type="bool">True</Setting>
-      <Setting id="0x010001b9" type="bool">True</Setting>
-      <Setting id="0x01000268" type="bool">True</Setting>
-      <Setting id="0x01000264" type="bool">True</Setting>
-      <Setting id="0x010002c3" type="bool">False</Setting>
+      <Setting id="0x01000269" type="bool">False</Setting>
+      <Setting id="0x010001b9" type="bool">False</Setting>
+      <Setting id="0x01000268" type="bool">False</Setting>
+      <Setting id="0x01000264" type="bool">False</Setting>
+      <Setting id="0x010002c3" type="bool">True</Setting>
       <Setting id="0x0100024d" type="bool">False</Setting>
       <Setting id="aby_mg" type="bool">False</Setting>
       <Setting id="0x010002c8" type="bool">False</Setting>
@@ -394,13 +365,13 @@
       <Setting id="hel" type="bool">True</Setting>
       <Setting id="0x01000262" type="bool">False</Setting>
       <Setting id="0x010002a4" type="bool">False</Setting>
-      <Setting id="0x01000294" type="bool">False</Setting>
-      <Setting id="0x010002dc" type="bool">False</Setting>
-      <Setting id="0x01000263" type="bool">False</Setting>
-      <Setting id="0x010002a0" type="bool">False</Setting>
-      <Setting id="0x01000295" type="bool">False</Setting>
+      <Setting id="0x01000294" type="bool">True</Setting>
+      <Setting id="0x010002dc" type="bool">True</Setting>
+      <Setting id="0x01000263" type="bool">True</Setting>
+      <Setting id="0x010002a0" type="bool">True</Setting>
+      <Setting id="0x01000295" type="bool">True</Setting>
       <Setting id="mum" type="bool">True</Setting>
-      <Setting id="0x010002cd" type="bool">False</Setting>
+      <Setting id="0x010002cd" type="bool">True</Setting>
       <Setting id="0x010001d6" type="bool">False</Setting>
       <Setting id="0x010002d5" type="bool">False</Setting>
       <Setting id="0x01000175" type="bool">False</Setting>
@@ -410,8 +381,8 @@
       <Setting id="0x01000172" type="bool">False</Setting>
       <Setting id="0x010002d9" type="bool">False</Setting>
       <Setting id="set" type="bool">True</Setting>
-      <Setting id="0x010002a6" type="bool">False</Setting>
-      <Setting id="0x010001bc" type="bool">False</Setting>
+      <Setting id="0x010002a6" type="bool">True</Setting>
+      <Setting id="0x010001bc" type="bool">True</Setting>
     </CustomSettings>
   </AutoSplitterSettings>
 </Run>
