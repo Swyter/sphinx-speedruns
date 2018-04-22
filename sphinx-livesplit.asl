@@ -44,20 +44,20 @@ startup
     settings.Add("loc",         true, "Locations");
     settings.Add("urk",         true, "Uruk",                                              "loc");
     settings.Add("0x010002be", false, "Uruk Intro",                                        "urk");  /* HT_File_Map_ur_intr  (urk_intr.edb) */
-    settings.Add("0x010002a7",  true, "Uruk Canyon (Dark Area)",                           "urk");  /* HT_File_Map_hl_da2    (_hl_da2.edb) */
-    settings.Add("0x010002a8",  true, "Uruk Islands + Geb Queen",                          "urk");  /* HT_File_Map_hl_da3    (_hl_da3.edb) */
+    settings.Add("0x010002a7", false, "Uruk Canyon (Dark Area)",                           "urk");  /* HT_File_Map_hl_da2    (_hl_da2.edb) */
+    settings.Add("0x010002a8", false, "Uruk Islands + Geb Queen",                          "urk");  /* HT_File_Map_hl_da3    (_hl_da3.edb) */
     settings.Add("0x01000233", false, "Uruk Temple Trials",                                "urk");  /* HT_File_urk_4pat     (_ur_4pat.edb) */
 
     settings.Add("lux",         true, "Luxor",                                             "loc");
-    settings.Add("0x01000265",  true, "Luxor Palace (Tut)",                                "lux");  /* HT_File_Map_lu_pala  (_lu_pala.edb) */
-    settings.Add("0x0100024b",  true, "Luxor Pyramid",                                     "lux");  /* HT_File_Map_lu_pyra  (_lu_pyra.edb) */
+    settings.Add("0x01000265", false, "Luxor Palace (Tut)",                                "lux");  /* HT_File_Map_lu_pala  (_lu_pala.edb) */
+    settings.Add("0x0100024b", false, "Luxor Pyramid",                                     "lux");  /* HT_File_Map_lu_pyra  (_lu_pyra.edb) */
 
     settings.Add("aby",         true, "Abydos",                                            "loc");
     settings.Add("0x01000269", false, "Abydos Sewer",                                      "aby");  /* HT_File_Map_ab_sewr  (_ab_sewr.edb) */
     settings.Add("0x010001b9", false, "Abydos Canals",                                     "aby");  /* HT_File_Map_ab_cana  (_ab_cana.edb) */
     settings.Add("0x01000268", false, "Abydos Monster Shop",                               "aby");  /* HT_File_Map_ab_shop  (_ab_shop.edb) */
     settings.Add("0x01000264", false, "Abydos Museum",                                     "aby");  /* HT_File_Map_ab_musm  (_ab_musm.edb) */
-    settings.Add("0x010002c3",  true, "Abydos Council Chambers",                           "aby");  /* HT_File_Map_ab_cncl  (_ab_cncl.edb) */
+    settings.Add("0x010002c3", false, "Abydos Council Chambers",                           "aby");  /* HT_File_Map_ab_cncl  (_ab_cncl.edb) */
     settings.Add("0x0100024d", false, "Abydos Boss Battle",                                "aby");  /* HT_File_Map_ak_du6    (_ak_du6.edb) */
 
     settings.Add("aby_mg",      true, "Abydos Minigames",                                  "aby");
@@ -69,14 +69,14 @@ startup
     settings.Add("hel",         true, "Heliopolis",                                        "loc");
     settings.Add("0x01000262", false, "Heliopolis: Exterior",                              "hel");  /* HT_File_Map_hl_ext    (_hl_ext.edb) */
     settings.Add("0x010002a4", false, "Heliopolis: Cursed Palace",                         "hel");  /* HT_File_Map_hl_cp      (_hl_cp.edb) */
-    settings.Add("0x01000294",  true, "Heliopolis: Great Wall Entrance I + Anubis Tower",  "hel");  /* HT_File_Map_hl_ws1    (_hl_ws1.edb) */
-    settings.Add("0x010002dc",  true, "Heliopolis: Great Wall Entrance II (Access Room)",  "hel");  /* HT_File_Map_hl_rm1    (_hl_rm1.edb) */
-    settings.Add("0x01000263",  true, "Heliopolis: Great Wall Entrance II (Wall section)", "hel");  /* HT_File_Map_hl_ws2    (_hl_ws2.edb) */
-    settings.Add("0x010002a0",  true, "Heliopolis: Great Wall Entrance III",               "hel");  /* HT_File_Map_hl_ws3    (_hl_ws3.edb) */
-    settings.Add("0x01000295",  true, "Heliopolis: Lost Temple",                           "hel");  /* HT_File_Map_hl_dng    (_hl_dng.edb) */
+    settings.Add("0x01000294", false, "Heliopolis: Great Wall Entrance I + Anubis Tower",  "hel");  /* HT_File_Map_hl_ws1    (_hl_ws1.edb) */
+    settings.Add("0x010002dc", false, "Heliopolis: Great Wall Entrance II (Access Room)",  "hel");  /* HT_File_Map_hl_rm1    (_hl_rm1.edb) */
+    settings.Add("0x01000263", false, "Heliopolis: Great Wall Entrance II (Wall section)", "hel");  /* HT_File_Map_hl_ws2    (_hl_ws2.edb) */
+    settings.Add("0x010002a0", false, "Heliopolis: Great Wall Entrance III",               "hel");  /* HT_File_Map_hl_ws3    (_hl_ws3.edb) */
+    settings.Add("0x01000295", false, "Heliopolis: Lost Temple",                           "hel");  /* HT_File_Map_hl_dng    (_hl_dng.edb) */
 
     settings.Add("mum",         true, "Mummy",                                             "loc");
-    settings.Add("0x010002cd",  true, "Mummy: Uruk Castle Jail and Hub (All)",             "mum");  /* HT_File_Map_mu_cast  (_mu_cast.edb) */
+    settings.Add("0x010002cd", false, "Mummy: Uruk Castle Jail and Hub (All)",             "mum");  /* HT_File_Map_mu_cast  (_mu_cast.edb) */
     settings.Add("0x010001d6", false, "Mummy Visit #1: Impulse Planetarium",               "mum");  /* HT_File_Map_mu_imp2  (_mu_imp2.edb) */
     settings.Add("0x010002d5", false, "Mummy Visit #2: Treasure Chamber (Triple mummy)",   "mum");  /* HT_File_Map_mu_trei  (_mu_trei.edb) */
     settings.Add("0x01000175", false, "Mummy Visit #3: Uruk Tower Exterior",               "mum");  /* HT_File_mum_towr     (mum_towr.edb) */
@@ -87,29 +87,29 @@ startup
     settings.Add("0x010002d9", false, "Mummy Visit #6: Eye Beam",                          "mum");  /* HT_File_Map_mu_eye    (_mu_eye.edb) */
 
     settings.Add("set",         true, "Set",                                               "loc");
-    settings.Add("0x010002a6",  true, "Uruk Castle Run",                                   "set");  /* HT_File_Map_ur_cast  (_ur_cast.edb) */
-    settings.Add("0x010001bc",  true, "Final Battle",                                      "set");  /* HT_File_Map_cas_lowr   (_Set02.edb) */
+    settings.Add("0x010002a6", false, "Uruk Castle Run",                                   "set");  /* HT_File_Map_ur_cast  (_ur_cast.edb) */
+    settings.Add("0x010001bc", false, "Final Battle",                                      "set");  /* HT_File_Map_cas_lowr   (_Set02.edb) */
 
     /* Add inventory and item related settings */
     /* Sphinx Abilities */
     vars.sphinxAbilityItems = new List<Dictionary<String, dynamic>>();
-    AddOption(vars.sphinxAbilityItems,  "cap_beet",          0,     null,   true,   "Capture Beetles",          false);
-    AddOption(vars.sphinxAbilityItems,  "blade",             1,     null,   true,   "Blade of Osiris",          false);
-    AddOption(vars.sphinxAbilityItems,  "shield",            2,     null,   true,   "Shield of Osiris",         false);
-    AddOption(vars.sphinxAbilityItems,  "pipe",              3,     null,   true,   "Blowpipe",                 false);
-    AddOption(vars.sphinxAbilityItems,  "ibis",              4,     null,   true,   "Wings of Ibis",            false);
-    AddOption(vars.sphinxAbilityItems,  "scales",            5,     null,   true,   "Crocodile Scales",         false);
-    AddOption(vars.sphinxAbilityItems,  "wat_proj",          6,     null,   true,   "Underwater Projectile",    false);
-    AddOption(vars.sphinxAbilityItems,  "amun",              7,     null,   true,   "Hands of Amun",            false);
-    AddOption(vars.sphinxAbilityItems,  "scarab_bag",        8,     null,   true,   "Scarab Bag",               false);
-    AddOption(vars.sphinxAbilityItems,  "lg_scarab_bag",     9,     null,   true,   "Large Scarab Bag",         false);
-    AddOption(vars.sphinxAbilityItems,  "beet_pouch",        10,    null,   true,   "Beetle Pouch",             false);
-    AddOption(vars.sphinxAbilityItems,  "beet_satch",        11,    null,   true,   "Beetle Satchel",           false);
-    AddOption(vars.sphinxAbilityItems,  "dart_belt",         12,    null,   true,   "Dart Belt",                false);
+    AddOption(vars.sphinxAbilityItems,  "cap_beet",          0,     null,  false,   "Capture Beetles",          false);
+    AddOption(vars.sphinxAbilityItems,  "blade",             1,     null,  false,   "Blade of Osiris",          false);
+    AddOption(vars.sphinxAbilityItems,  "shield",            2,     null,  false,   "Shield of Osiris",         false);
+    AddOption(vars.sphinxAbilityItems,  "pipe",              3,     null,  false,   "Blowpipe",                 false);
+    AddOption(vars.sphinxAbilityItems,  "ibis",              4,     null,  false,   "Wings of Ibis",            false);
+    AddOption(vars.sphinxAbilityItems,  "scales",            5,     null,  false,   "Crocodile Scales",         false);
+    AddOption(vars.sphinxAbilityItems,  "wat_proj",          6,     null,  false,   "Underwater Projectile",    false);
+    AddOption(vars.sphinxAbilityItems,  "amun",              7,     null,  false,   "Hands of Amun",            false);
+    AddOption(vars.sphinxAbilityItems,  "scarab_bag",        8,     null,  false,   "Scarab Bag",               false);
+    AddOption(vars.sphinxAbilityItems,  "lg_scarab_bag",     9,     null,  false,   "Large Scarab Bag",         false);
+    AddOption(vars.sphinxAbilityItems,  "beet_pouch",        10,    null,  false,   "Beetle Pouch",             false);
+    AddOption(vars.sphinxAbilityItems,  "beet_satch",        11,    null,  false,   "Beetle Satchel",           false);
+    AddOption(vars.sphinxAbilityItems,  "dart_belt",         12,    null,  false,   "Dart Belt",                false);
 
     vars.sphinxDarts = new List<Dictionary<String, dynamic>>();
-    AddOption(vars.sphinxDarts,         "bounce_dart",       1,     50,     true,   "Bouncing Darts",           false); // you get 50 on pickup
-    AddOption(vars.sphinxDarts,         "ice_dart",          2,     30,     true,   "Ice Darts",                false); // You get 30 on pickup
+    AddOption(vars.sphinxDarts,         "bounce_dart",       1,     50,    false,   "Bouncing Darts",           false); // you get 50 on pickup
+    AddOption(vars.sphinxDarts,         "ice_dart",          2,     30,    false,   "Ice Darts",                false); // You get 30 on pickup
     AddOption(vars.sphinxDarts,         "acid_dart",         3,     30,    false,   "Acid Darts",               false); // You get 30 on pickup
 
     settings.Add("sphx_abil",       true, "Sphinx Ability Items");
@@ -121,8 +121,8 @@ startup
     AddOption(vars.sphinxQuestItems,    "sdes_key",         11,     null,   false,  "South Desert Key",          false);
     AddOption(vars.sphinxQuestItems,    "obelisk_key",      12,     null,   false,  "Obelisk Gate Key",          false);
     AddOption(vars.sphinxQuestItems,    "cave_key",         13,     null,   false,  "Cave Door Key",             false);
-    AddOption(vars.sphinxQuestItems,    "u_crown",          15,     null,   true,   "Urukite Crown",             false);
-    AddOption(vars.sphinxQuestItems,    "a_crown",          16,     null,   true,   "Abydosian Crown",           false);
+    AddOption(vars.sphinxQuestItems,    "u_crown",          15,     null,   false,   "Urukite Crown",             false);
+    AddOption(vars.sphinxQuestItems,    "a_crown",          16,     null,   false,   "Abydosian Crown",           false);
     AddOption(vars.sphinxQuestItems,    "h_crown",          17,     null,   false,  "Helian Crown",              false);
     AddOption(vars.sphinxQuestItems,    "s_crown",          18,     null,   false,  "Set Crown",                 false);
     AddOption(vars.sphinxQuestItems,    "cstone_grey",      19,     null,   false,  "Curse Stone (Grey)",        false);
@@ -142,9 +142,9 @@ startup
     AddOption(vars.sphinxQuestItems,    "skel_pelvis",      33,     null,   false,  "Skeletal Pelvis",           false);
     AddOption(vars.sphinxQuestItems,    "skel_arm",         34,     null,   false,  "Skeletal Arm",              false);
     AddOption(vars.sphinxQuestItems,    "skel_leg",         35,     null,   false,  "Skeletal Leg",              false);
-    AddOption(vars.sphinxQuestItems,    "ammy_myst",        37,     null,   true,   "Mysterious Amulet",         false);
-    AddOption(vars.sphinxQuestItems,    "ammy_abydos",      38,     null,   true,   "Abydosian Amulet",          false);
-    AddOption(vars.sphinxQuestItems,    "ammy_helio",       39,     null,   true,   "Heliopolis Amulet",         false);
+    AddOption(vars.sphinxQuestItems,    "ammy_myst",        37,     null,   false,   "Mysterious Amulet",         false);
+    AddOption(vars.sphinxQuestItems,    "ammy_abydos",      38,     null,   false,   "Abydosian Amulet",          false);
+    AddOption(vars.sphinxQuestItems,    "ammy_helio",       39,     null,   false,   "Heliopolis Amulet",         false);
     AddOption(vars.sphinxQuestItems,    "ammy_anubis",      40,     null,   false,  "Anubis Amulet",             false);
     AddOption(vars.sphinxQuestItems,    "basket",           41,     null,   false,  "Bas-Ket",                   false);
     AddOption(vars.sphinxQuestItems,    "book_dead",        43,     null,   false,  "Book of the Dead",          false);
@@ -153,14 +153,14 @@ startup
     AddOption(vars.sphinxQuestItems,    "pass_card",        46,     null,   false,  "Abydos Pass Card",          false);
     AddOption(vars.sphinxQuestItems,    "breeding_jar",     47,     null,   false,  "Beetle Breeding Jar",       false);
     AddOption(vars.sphinxQuestItems,    "loyality_card",    48,     null,   false,  "Loyality Card",             false);
-    AddOption(vars.sphinxQuestItems,    "royal_invite",     49,     null,   true,   "Royal Invitation",          false);
+    AddOption(vars.sphinxQuestItems,    "royal_invite",     49,     null,   false,   "Royal Invitation",          false);
     AddOption(vars.sphinxQuestItems,    "parasol",          50,     null,   false,  "Parasol",                   false);
     AddOption(vars.sphinxQuestItems,    "monster_1",        51,     null,   false,  "Monster List I",            false);
     AddOption(vars.sphinxQuestItems,    "monster_2",        52,     null,   false,  "Monster List II",           false);
     AddOption(vars.sphinxQuestItems,    "monster_3",        53,     null,   false,  "Monster List III",          false);
     AddOption(vars.sphinxQuestItems,    "zip_line",         54,     null,   false,  "Zip-line Handle",           false);
     AddOption(vars.sphinxQuestItems,    "old_key",          55,     null,   false,  "Old Key",                   false);
-    AddOption(vars.sphinxQuestItems,    "stairs_key",       56,     null,   true,   "Stairs Key",                false);
+    AddOption(vars.sphinxQuestItems,    "stairs_key",       56,     null,   false,   "Stairs Key",                false);
     AddOption(vars.sphinxQuestItems,    "medicine_bag",     57,     null,   false,  "Medicine Bag",              false);
     AddOption(vars.sphinxQuestItems,    "atun_statue",      58,     null,   false,  "Atun Statue",               false);
     AddOption(vars.sphinxQuestItems,    "hathor_statue",    59,     null,   false,  "Hathor Statue",             false);
@@ -195,11 +195,11 @@ startup
     vars.mummyItems = new List<Dictionary<String, dynamic>>();
     AddOption(vars.mummyItems,          "mum_dark_stone",   0,      null,   false,  "Dark Stone",                   false);
     AddOption(vars.mummyItems,          "key_court",        2,      null,   false,  "Courtyard Key",                false);
-    AddOption(vars.mummyItems,          "nef_letter",       3,      null,   true,   "Nefertiti's Letter",           false);
-    AddOption(vars.mummyItems,          "key_sarco",        4,      null,   true,   "Sarcophagus Key",              false);
+    AddOption(vars.mummyItems,          "nef_letter",       3,      null,   false,   "Nefertiti's Letter",           false);
+    AddOption(vars.mummyItems,          "key_sarco",        4,      null,   false,   "Sarcophagus Key",              false);
     AddOption(vars.mummyItems,          "key_ward",         5,      null,   false,  "Wardrobe Key",                 false);
-    AddOption(vars.mummyItems,          "ammy_old",         7,      8,      true,   "Old Amulet (Split at 8)",      false);
-    AddOption(vars.mummyItems,          "key_treasure",     9,      null,   true,   "Treasure Room Key",            false);
+    AddOption(vars.mummyItems,          "ammy_old",         7,      8,      false,   "Old Amulet (Split at 8)",      false);
+    AddOption(vars.mummyItems,          "key_treasure",     9,      null,   false,   "Treasure Room Key",            false);
     AddOption(vars.mummyItems,          "key_solar",        12,     null,   false,  "Solar Key",                    false);
     AddOption(vars.mummyItems,          "key_earth",        13,     null,   false,  "Earth Key",                    false);
     AddOption(vars.mummyItems,          "key_lunar",        14,     null,   false,  "Lunar Key",                    false);

@@ -337,11 +337,12 @@
   </Segments>
   <AutoSplitterSettings>
     <Version>1.5</Version>
-    <ScriptPath>C:\Users\xtvas\Documents\Livesplit\Livesplit\Components\sphinx-livesplit.asl</ScriptPath>
+    <ScriptPath>F:\Repos\sphinx-speedruns\sphinx-livesplit.asl</ScriptPath>
     <Start>True</Start>
     <Reset>True</Reset>
     <Split>True</Split>
     <CustomSettings>
+      <Setting id="loc" type="bool">True</Setting>
       <Setting id="urk" type="bool">True</Setting>
       <Setting id="0x010002be" type="bool">False</Setting>
       <Setting id="0x010002a7" type="bool">True</Setting>
@@ -383,6 +384,110 @@
       <Setting id="set" type="bool">True</Setting>
       <Setting id="0x010002a6" type="bool">True</Setting>
       <Setting id="0x010001bc" type="bool">True</Setting>
+      <Setting id="sphx_abil" type="bool">True</Setting>
+      <Setting id="cap_beet" type="bool">True</Setting>
+      <Setting id="blade" type="bool">True</Setting>
+      <Setting id="shield" type="bool">True</Setting>
+      <Setting id="pipe" type="bool">True</Setting>
+      <Setting id="ibis" type="bool">True</Setting>
+      <Setting id="scales" type="bool">True</Setting>
+      <Setting id="wat_proj" type="bool">True</Setting>
+      <Setting id="amun" type="bool">True</Setting>
+      <Setting id="scarab_bag" type="bool">True</Setting>
+      <Setting id="lg_scarab_bag" type="bool">True</Setting>
+      <Setting id="beet_pouch" type="bool">True</Setting>
+      <Setting id="beet_satch" type="bool">True</Setting>
+      <Setting id="dart_belt" type="bool">True</Setting>
+      <Setting id="bounce_dart" type="bool">True</Setting>
+      <Setting id="ice_dart" type="bool">True</Setting>
+      <Setting id="acid_dart" type="bool">False</Setting>
+      <Setting id="sphx_quest" type="bool">True</Setting>
+      <Setting id="sdes_key" type="bool">False</Setting>
+      <Setting id="obelisk_key" type="bool">False</Setting>
+      <Setting id="cave_key" type="bool">False</Setting>
+      <Setting id="u_crown" type="bool">True</Setting>
+      <Setting id="a_crown" type="bool">True</Setting>
+      <Setting id="h_crown" type="bool">False</Setting>
+      <Setting id="s_crown" type="bool">False</Setting>
+      <Setting id="cstone_grey" type="bool">False</Setting>
+      <Setting id="cstone_green" type="bool">False</Setting>
+      <Setting id="cstone_red" type="bool">False</Setting>
+      <Setting id="cstone_yellow" type="bool">False</Setting>
+      <Setting id="cstone_blue" type="bool">False</Setting>
+      <Setting id="cstone_purple" type="bool">False</Setting>
+      <Setting id="cstone_teal" type="bool">False</Setting>
+      <Setting id="jewel_mum1" type="bool">False</Setting>
+      <Setting id="jewel_mum2" type="bool">False</Setting>
+      <Setting id="jewel_mum3" type="bool">False</Setting>
+      <Setting id="jewel_mum4" type="bool">False</Setting>
+      <Setting id="jewel_mum5" type="bool">False</Setting>
+      <Setting id="jewel_mum6" type="bool">False</Setting>
+      <Setting id="skel_skull" type="bool">False</Setting>
+      <Setting id="skel_pelvis" type="bool">False</Setting>
+      <Setting id="skel_arm" type="bool">False</Setting>
+      <Setting id="skel_leg" type="bool">False</Setting>
+      <Setting id="ammy_myst" type="bool">True</Setting>
+      <Setting id="ammy_abydos" type="bool">True</Setting>
+      <Setting id="ammy_helio" type="bool">True</Setting>
+      <Setting id="ammy_anubis" type="bool">False</Setting>
+      <Setting id="basket" type="bool">False</Setting>
+      <Setting id="book_dead" type="bool">False</Setting>
+      <Setting id="phys_note" type="bool">False</Setting>
+      <Setting id="rosetta_stone" type="bool">False</Setting>
+      <Setting id="pass_card" type="bool">False</Setting>
+      <Setting id="breeding_jar" type="bool">False</Setting>
+      <Setting id="loyality_card" type="bool">False</Setting>
+      <Setting id="royal_invite" type="bool">True</Setting>
+      <Setting id="parasol" type="bool">False</Setting>
+      <Setting id="monster_1" type="bool">False</Setting>
+      <Setting id="monster_2" type="bool">False</Setting>
+      <Setting id="monster_3" type="bool">False</Setting>
+      <Setting id="zip_line" type="bool">False</Setting>
+      <Setting id="old_key" type="bool">False</Setting>
+      <Setting id="stairs_key" type="bool">True</Setting>
+      <Setting id="medicine_bag" type="bool">False</Setting>
+      <Setting id="atun_statue" type="bool">False</Setting>
+      <Setting id="hathor_statue" type="bool">False</Setting>
+      <Setting id="eagle_stone" type="bool">False</Setting>
+      <Setting id="dark_stone" type="bool">False</Setting>
+      <Setting id="marksman_medal" type="bool">False</Setting>
+      <Setting id="medal_memory" type="bool">False</Setting>
+      <Setting id="medal_champ" type="bool">False</Setting>
+      <Setting id="medal_seq" type="bool">False</Setting>
+      <Setting id="master_hunt" type="bool">False</Setting>
+      <Setting id="hunt_gold" type="bool">False</Setting>
+      <Setting id="hunt_silver" type="bool">False</Setting>
+      <Setting id="hunt_bronze" type="bool">False</Setting>
+      <Setting id="sphx_quest_var" type="bool">True</Setting>
+      <Setting id="gold_ankhs" type="bool">False</Setting>
+      <Setting id="pearls" type="bool">False</Setting>
+      <Setting id="herbs" type="bool">False</Setting>
+      <Setting id="ros_stone" type="bool">False</Setting>
+      <Setting id="coconut" type="bool">False</Setting>
+      <Setting id="canopic_vase" type="bool">False</Setting>
+      <Setting id="blue_diamond" type="bool">False</Setting>
+      <Setting id="mum_items" type="bool">True</Setting>
+      <Setting id="mum_dark_stone" type="bool">False</Setting>
+      <Setting id="key_court" type="bool">False</Setting>
+      <Setting id="nef_letter" type="bool">True</Setting>
+      <Setting id="key_sarco" type="bool">True</Setting>
+      <Setting id="key_ward" type="bool">False</Setting>
+      <Setting id="ammy_old" type="bool">True</Setting>
+      <Setting id="key_treasure" type="bool">True</Setting>
+      <Setting id="key_solar" type="bool">False</Setting>
+      <Setting id="key_earth" type="bool">False</Setting>
+      <Setting id="key_lunar" type="bool">False</Setting>
+      <Setting id="key_cage" type="bool">False</Setting>
+      <Setting id="mum_royal_invite" type="bool">False</Setting>
+      <Setting id="mum_ibis" type="bool">False</Setting>
+      <Setting id="mum_medicine_bag" type="bool">False</Setting>
+      <Setting id="mum_atun_statue" type="bool">False</Setting>
+      <Setting id="mum_jewel_mum1" type="bool">False</Setting>
+      <Setting id="mum_jewel_mum2" type="bool">False</Setting>
+      <Setting id="mum_jewel_mum3" type="bool">False</Setting>
+      <Setting id="mum_jewel_mum4" type="bool">False</Setting>
+      <Setting id="mum_jewel_mum5" type="bool">False</Setting>
+      <Setting id="mum_jewel_mum6" type="bool">False</Setting>
     </CustomSettings>
   </AutoSplitterSettings>
 </Run>
