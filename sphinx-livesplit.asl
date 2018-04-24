@@ -121,8 +121,8 @@ startup
     AddOption(vars.sphinxQuestItems,    "sdes_key",         11,     null,   false,  "South Desert Key",          false);
     AddOption(vars.sphinxQuestItems,    "obelisk_key",      12,     null,   false,  "Obelisk Gate Key",          false);
     AddOption(vars.sphinxQuestItems,    "cave_key",         13,     null,   false,  "Cave Door Key",             false);
-    AddOption(vars.sphinxQuestItems,    "u_crown",          15,     null,   false,   "Urukite Crown",             false);
-    AddOption(vars.sphinxQuestItems,    "a_crown",          16,     null,   false,   "Abydosian Crown",           false);
+    AddOption(vars.sphinxQuestItems,    "u_crown",          15,     null,   false,  "Urukite Crown",             false);
+    AddOption(vars.sphinxQuestItems,    "a_crown",          16,     null,   false,  "Abydosian Crown",           false);
     AddOption(vars.sphinxQuestItems,    "h_crown",          17,     null,   false,  "Helian Crown",              false);
     AddOption(vars.sphinxQuestItems,    "s_crown",          18,     null,   false,  "Set Crown",                 false);
     AddOption(vars.sphinxQuestItems,    "cstone_grey",      19,     null,   false,  "Curse Stone (Grey)",        false);
@@ -142,9 +142,9 @@ startup
     AddOption(vars.sphinxQuestItems,    "skel_pelvis",      33,     null,   false,  "Skeletal Pelvis",           false);
     AddOption(vars.sphinxQuestItems,    "skel_arm",         34,     null,   false,  "Skeletal Arm",              false);
     AddOption(vars.sphinxQuestItems,    "skel_leg",         35,     null,   false,  "Skeletal Leg",              false);
-    AddOption(vars.sphinxQuestItems,    "ammy_myst",        37,     null,   false,   "Mysterious Amulet",         false);
-    AddOption(vars.sphinxQuestItems,    "ammy_abydos",      38,     null,   false,   "Abydosian Amulet",          false);
-    AddOption(vars.sphinxQuestItems,    "ammy_helio",       39,     null,   false,   "Heliopolis Amulet",         false);
+    AddOption(vars.sphinxQuestItems,    "ammy_myst",        37,     null,   false,  "Mysterious Amulet",         false);
+    AddOption(vars.sphinxQuestItems,    "ammy_abydos",      38,     null,   false,  "Abydosian Amulet",          false);
+    AddOption(vars.sphinxQuestItems,    "ammy_helio",       39,     null,   false,  "Heliopolis Amulet",         false);
     AddOption(vars.sphinxQuestItems,    "ammy_anubis",      40,     null,   false,  "Anubis Amulet",             false);
     AddOption(vars.sphinxQuestItems,    "basket",           41,     null,   false,  "Bas-Ket",                   false);
     AddOption(vars.sphinxQuestItems,    "book_dead",        43,     null,   false,  "Book of the Dead",          false);
@@ -153,14 +153,14 @@ startup
     AddOption(vars.sphinxQuestItems,    "pass_card",        46,     null,   false,  "Abydos Pass Card",          false);
     AddOption(vars.sphinxQuestItems,    "breeding_jar",     47,     null,   false,  "Beetle Breeding Jar",       false);
     AddOption(vars.sphinxQuestItems,    "loyality_card",    48,     null,   false,  "Loyality Card",             false);
-    AddOption(vars.sphinxQuestItems,    "royal_invite",     49,     null,   false,   "Royal Invitation",          false);
+    AddOption(vars.sphinxQuestItems,    "royal_invite",     49,     null,   false,  "Royal Invitation",          false);
     AddOption(vars.sphinxQuestItems,    "parasol",          50,     null,   false,  "Parasol",                   false);
     AddOption(vars.sphinxQuestItems,    "monster_1",        51,     null,   false,  "Monster List I",            false);
     AddOption(vars.sphinxQuestItems,    "monster_2",        52,     null,   false,  "Monster List II",           false);
     AddOption(vars.sphinxQuestItems,    "monster_3",        53,     null,   false,  "Monster List III",          false);
     AddOption(vars.sphinxQuestItems,    "zip_line",         54,     null,   false,  "Zip-line Handle",           false);
     AddOption(vars.sphinxQuestItems,    "old_key",          55,     null,   false,  "Old Key",                   false);
-    AddOption(vars.sphinxQuestItems,    "stairs_key",       56,     null,   false,   "Stairs Key",                false);
+    AddOption(vars.sphinxQuestItems,    "stairs_key",       56,     null,   false,  "Stairs Key",                false);
     AddOption(vars.sphinxQuestItems,    "medicine_bag",     57,     null,   false,  "Medicine Bag",              false);
     AddOption(vars.sphinxQuestItems,    "atun_statue",      58,     null,   false,  "Atun Statue",               false);
     AddOption(vars.sphinxQuestItems,    "hathor_statue",    59,     null,   false,  "Hathor Statue",             false);
@@ -195,11 +195,11 @@ startup
     vars.mummyItems = new List<Dictionary<String, dynamic>>();
     AddOption(vars.mummyItems,          "mum_dark_stone",   0,      null,   false,  "Dark Stone",                   false);
     AddOption(vars.mummyItems,          "key_court",        2,      null,   false,  "Courtyard Key",                false);
-    AddOption(vars.mummyItems,          "nef_letter",       3,      null,   false,   "Nefertiti's Letter",           false);
-    AddOption(vars.mummyItems,          "key_sarco",        4,      null,   false,   "Sarcophagus Key",              false);
+    AddOption(vars.mummyItems,          "nef_letter",       3,      null,   false,  "Nefertiti's Letter",           false);
+    AddOption(vars.mummyItems,          "key_sarco",        4,      null,   false,  "Sarcophagus Key",              false);
     AddOption(vars.mummyItems,          "key_ward",         5,      null,   false,  "Wardrobe Key",                 false);
-    AddOption(vars.mummyItems,          "ammy_old",         7,      8,      false,   "Old Amulet (Split at 8)",      false);
-    AddOption(vars.mummyItems,          "key_treasure",     9,      null,   false,   "Treasure Room Key",            false);
+    AddOption(vars.mummyItems,          "ammy_old",         7,      8,      false,  "Old Amulet (Split at 8)",      false);
+    AddOption(vars.mummyItems,          "key_treasure",     9,      null,   false,  "Treasure Room Key",            false);
     AddOption(vars.mummyItems,          "key_solar",        12,     null,   false,  "Solar Key",                    false);
     AddOption(vars.mummyItems,          "key_earth",        13,     null,   false,  "Earth Key",                    false);
     AddOption(vars.mummyItems,          "key_lunar",        14,     null,   false,  "Lunar Key",                    false);
@@ -232,6 +232,7 @@ init
 
     /* swy: silly null-terminated marker that signals the start of the gExportBlock */
     byte[] marker = Encoding.ASCII.GetBytes("SPeeDRuNSaReFuN" + Char.MinValue);
+
     exported_ptr = new SignatureScanner(game, modules.First().BaseAddress, modules.First().ModuleMemorySize).Scan(
         new SigScanTarget(marker.Length, marker)
     );
@@ -279,7 +280,7 @@ init
     var watchers = new MemoryWatcherList {
         new MemoryWatcher<uint>((IntPtr) game.ReadValue<uint>(exported_ptr + (4 * 0))) { Name = "gameTimer" },
         new MemoryWatcher<uint>((IntPtr) game.ReadValue<uint>(exported_ptr + (4 * 1))) { Name = "levelHash" },
-        new MemoryWatcher<uint>(exported_ptr + (4 * 2)) { Name = "defeatSet" },
+        new MemoryWatcher<uint>(                              exported_ptr + (4 * 2))  { Name = "defeatSet" },
         new MemoryWatcher<uint>((IntPtr) game.ReadValue<uint>(exported_ptr + (4 * 3))) { Name = "updaState" },
     };
 
@@ -300,12 +301,15 @@ init
 
     var darts_ptr = inven_ptr - (4 * 0x10);
     AddMemoryWatchers(watchers, darts_ptr, vars.sphinxDarts);
+    
     var sphx_item_ptr = inven_ptr + (14 * 0x10);
     vars.DebugOutput(String.Format("Item Ptr - {0}", sphx_item_ptr.ToString("x8")));
     AddMemoryWatchers(watchers, sphx_item_ptr, vars.sphinxQuestItems);
     AddMemoryWatchers(watchers, sphx_item_ptr, vars.sphinxQuestItemsVar);
+    
     var sphx_abil_ptr = inven_ptr + (144 * 0x10);
     AddMemoryWatchers(watchers, sphx_abil_ptr, vars.sphinxAbilityItems);
+    
     var mum_item_ptr = inven_ptr + (250 * 0x10);
     AddMemoryWatchers(watchers, mum_item_ptr, vars.mummyItems);
 
@@ -321,9 +325,7 @@ init
 update
 {
     if (!vars.foundPointers)
-    {
         return false;
-    }
 
     /* swy: don't forget that every MemoryWatcher has
             re-scan its value every now and then */
@@ -332,7 +334,7 @@ update
 
 reset
 {
-    /* swy: start the thing on a new game, the gameTimer doesn't change unless we are creating/loading something */
+    /* swy: reset the thing on a new game, the gameTimer doesn't change unless we are creating/loading something */
     return (vars.watchers["gameTimer"].Current != vars.watchers["gameTimer"].Old) && vars.watchers["gameTimer"].Current == 0;
 }
 
@@ -362,6 +364,7 @@ split
             return true;
         }
     }
+    
     // Iterate and check inventory related options using those lists we made before
     Func<List<Dictionary<String, dynamic>>, bool> InspectValues = (list) =>
     {
@@ -385,11 +388,11 @@ split
         return false;
     };
 
-    if(InspectValues(vars.sphinxAbilityItems)) return true;
-    if(InspectValues(vars.sphinxDarts)) return true;
-    if(InspectValues(vars.sphinxQuestItems)) return true;
+    if(InspectValues(vars.sphinxAbilityItems))  return true;
+    if(InspectValues(vars.sphinxDarts))         return true;
+    if(InspectValues(vars.sphinxQuestItems))    return true;
     if(InspectValues(vars.sphinxQuestItemsVar)) return true;
-    if(InspectValues(vars.mummyItems)) return true;
+    if(InspectValues(vars.mummyItems))          return true;
 
     /* swy: stop the timer whenever Set is dealt with (the last split of the run, i hope!)
             this is an autoincrementing variable, for simplicity */
